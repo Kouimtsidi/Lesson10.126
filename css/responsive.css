@@ -1,0 +1,18 @@
+@media (max-width:1000px) {
+    .div-wrap {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+}
+@media (max-width:1000px) {
+    .fourth-section {
+        flex-wrap: wrap;
+        width:100%;
+    }
+}
+/* @media (max-width:1000px) {
+    .div-map {
+        display: flex;
+        width:100%;
+    }
+} */
