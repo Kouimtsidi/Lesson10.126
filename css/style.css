@@ -8,12 +8,18 @@
     margin-bottom: 40px;
 }
 .header-div {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     padding: 30px 142px;
     color:white
 }
 .nav-ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .text {
@@ -29,6 +35,8 @@
     margin-right: 5px;
   }
 .div-p {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     color: white;
   }
@@ -44,16 +52,16 @@
 
 /* section */
 .div-map {
-    display: flex;
-    justify-content: center;
-    width:100%;
+        max-width: 900px;
+        margin: 0 auto;
 }
 /* second-section */
 .p-contact{
     margin-top: 50px;
 }
 .first-title {
-    width: 378px;
+    max-width: 378px;
+    width: 100%;
     height: 115px;
     font-size: 42px;
     font-weight: 300px;
@@ -62,17 +70,27 @@
     width:720px;
     height: 288px;
     resize: none;
+    border: 2px solid #cecece;
 }
 .textarea:focus {
     outline: none;
 }
 .div-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 .form-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 .send {
     background-color: #5863F8;
@@ -88,11 +106,15 @@
     height: 60px;
     margin-bottom: 16px;
     margin-left: 10px;
+    border-color: #cecece;
 }
 .fourth-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 100%;
-    justify-content:space-around;
+    -ms-flex-pack:distribute;
+        justify-content:space-around;
     margin-bottom: 60px;
 }
 .image {
@@ -108,25 +130,36 @@
     width: 59px;
     height: 58px;
     border-radius: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin-bottom: 10px;
     margin-left: 42px;
     color: white;
 }
 .text-photo {
-    width:565px;
+    max-width:565px;
+    width: 100%;
     height: 115px;
     font-size: 42px;
     font-weight: 400px;
 }
 .flex-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-around;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
 }
 .text-about-hotel {
-    width:260px;
+    max-width:260px;
+    width:100%;
     margin-bottom: 30px;
 }
 .zetta {

@@ -10,9 +10,10 @@
         width:100%;
     }
 }
-/* @media (max-width:1000px) {
-    .div-map {
-        display: flex;
-        width:100%;
+@media (max-width:1000px) {
+    .text-photo {
+        font-size: 15px;
     }
-} */
+}
+
+    
